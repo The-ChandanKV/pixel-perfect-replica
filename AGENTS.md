@@ -28,3 +28,7 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+## Application architecture
+
+- Keep the SatModClass experience in a shared app shell with file-based TanStack routes for each major workspace, so navigation stays consistent and each page remains directly addressable.
